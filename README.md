@@ -25,7 +25,7 @@ To increase model performance, we started by dropping more columns. Any columns 
 #### Attempt 2: Creating more bins for rare occurrences of categorical variable
 A second attempt at improving model performance was creating more bins for the APPLICATION_TYPE and CLASSIFICATION columns. This attempt had no impact by themseleves on model performance.
 
-Model Accuarcy after binning rara categorical occurences
+Model Accuarcy after binning rare categorical occurences
 
 ![Model_Accuracy_Binning](https://user-images.githubusercontent.com/67847583/131287466-2cdfeaf8-0b40-4e86-9e25-a20ab569e024.png)
 
@@ -36,6 +36,8 @@ A third attempt at improving performance was increasing the number of neurons in
 
 #### Attempt 4: Incrase number of hidden layer and changing activation functions
 A fourth attempt included incrasing number of hidden layers and changing activation functions. Individually, these attempts did not raise model accuracy beyond 72%
+
+Model Peformance after increasing number of hidding layers
 
 ![Model_Accuracy_Add_Hidden_Layers](https://user-images.githubusercontent.com/67847583/131287072-8500b839-2fad-4b51-a49a-0eec36981cfb.png)
 
