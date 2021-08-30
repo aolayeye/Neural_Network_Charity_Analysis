@@ -31,8 +31,8 @@ A fourth attempt included incrasing number of hidden layers and changing activat
 ### Summary
 While the neural network model may be a powerful machine learning algorithm, it did not do a good job at classifying which applicants requests for donation will be successful given the dataset we have.
 Some of the steps we may include:
-1. we may use an Easy Ensemble AdaBoost Classifier or the Balanced Random Forest Classifier
+1. One recommendation is to use a larger dataset to train the neural network model to learn the general distribution of the dataset without overfitting.
+2. We may use an Easy Ensemble AdaBoost Classifier or the Balanced Random Forest Classifier
    - Boosting algorithms combine multiple low accuracy models to create a high accuracy model. AdaBoost is example of Boosting algorithm. 
    - The important advantage of AdaBoost classificier is Low generalization error, easy to implement, works with a wide range of classifiers, and no parameters to adjust
 
-2. A second recommendation is to use a larger dataset to train the neural network model to learn the general distribution of the dataset without overfitting.
