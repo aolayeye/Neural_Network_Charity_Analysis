@@ -33,6 +33,9 @@ Model Accuarcy after binning rare categorical occurences
 #### Attempt 3: Incarease number of neurons
 A third attempt at improving performance was increasing the number of neurons in the hidden layer. This attempt did not increase model accuracy
 
+Model Accuracy after increasing number of neurons
+
+![Model_Accuracy_Increase_Neurons](https://user-images.githubusercontent.com/67847583/131288973-8ffdb72e-b10d-4805-867d-8ba919da4d59.png)
 
 #### Attempt 4: Incrase number of hidden layer and changing activation functions
 A fourth attempt included incrasing number of hidden layers and changing activation functions. Individually, these attempts did not raise model accuracy beyond 72%
