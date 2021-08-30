@@ -20,12 +20,14 @@ To optimize the model, we used three hidden layers, with 90, 50, and 25 neurons 
 #### Attempt 1: Dropping more columns
 To increase model performance, we started by dropping more columns. Any columns dropped beyond the NAME, EIN, and STATUS colums either reduced model performance or did not increase model performance or did.
 
+Model Accuarcy after dropping more columns
+
 ![Model_Accuracy_Drop_Columns](https://user-images.githubusercontent.com/67847583/131287022-99649371-a46f-4d4c-88bd-e0a375cbffc0.png)
 
 #### Attempt 2: Creating more bins for rare occurrences of categorical variable
 A second attempt at improving model performance was creating more bins for the APPLICATION_TYPE and CLASSIFICATION columns. This attempt had no impact by themseleves on model performance.
 
-Model Accuarcy after binning rare categorical occurences
+Model Accuracy after binning rare categorical occurences
 
 ![Model_Accuracy_Binning](https://user-images.githubusercontent.com/67847583/131287466-2cdfeaf8-0b40-4e86-9e25-a20ab569e024.png)
 
