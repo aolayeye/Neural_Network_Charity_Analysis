@@ -12,12 +12,14 @@ In this project we will implement a neural network binary classifier that is cap
 
 The EIN and the Name column are non-beneficial to the model thus we remove them. Similarly, the STATUS column contains more than 98% the same value; the inclusion or exclusion of this column does not improve or decrease model performance
 STATUS
+
 ![Status_Column](https://user-images.githubusercontent.com/67847583/131268084-58826bc2-fa5d-4c69-8171-9e4bbb9fc9a8.png)
 
 ### Compiling, Training, and Evaluation
 To optimize the model, we used three hidden layers, with 90, 50, and 25 neurons for layer1, layer2, and layer3 respectively
 #### Attempt 1: Dropping more columns
 To increase model performance, we started by dropping more columns. Any columns dropped beyond the NAME, EIN, and STATUS colums either reduced model performance or did not increase model performance or did.
+
 ![Model_Accuracy_Drop_Columns](https://user-images.githubusercontent.com/67847583/131287022-99649371-a46f-4d4c-88bd-e0a375cbffc0.png)
 
 #### Attempt 2: Creating more bins for rare occurrences of categorical variable
@@ -29,6 +31,7 @@ A third attempt at improving performance was increasing the number of neurons in
 
 #### Attempt 4: Incrase number of hidden layer and changing activation functions
 A fourth attempt included incrasing number of hidden layers and changing activation functions. Individually, these attempts did not raise model accuracy beyond 72%
+
 ![Model_Accuracy_Add_Hidden_Layers](https://user-images.githubusercontent.com/67847583/131287072-8500b839-2fad-4b51-a49a-0eec36981cfb.png)
 
 ### Summary
