@@ -18,6 +18,7 @@ STATUS
 To optimize the model, we used three hidden layers, with 90, 50, and 25 neurons for layer1, layer2, and layer3 respectively
 #### Attempt 1: Dropping more columns
 To increase model performance, we started by dropping more columns. Any columns dropped beyond the NAME, EIN, and STATUS colums either reduced model performance or did not increase model performance or did.
+![Model_Accuracy_Drop_Columns](https://user-images.githubusercontent.com/67847583/131287022-99649371-a46f-4d4c-88bd-e0a375cbffc0.png)
 
 #### Attempt 2: Creating more bins for rare occurrences of categorical variable
 A second attempt at improving model performance was creating more bins for the APPLICATION_TYPE and CLASSIFICATION columns. This attempt had no impact by themseleves on model performance.
@@ -25,8 +26,10 @@ A second attempt at improving model performance was creating more bins for the A
 #### Attempt 3: Incarease number of neurons
 A third attempt at improving performance was increasing the number of neurons in the hidden layer. This attempt did not increase model accuracy
 
+
 #### Attempt 4: Incrase number of hidden layer and changing activation functions
 A fourth attempt included incrasing number of hidden layers and changing activation functions. Individually, these attempts did not raise model accuracy beyond 72%
+![Model_Accuracy_Add_Hidden_Layers](https://user-images.githubusercontent.com/67847583/131287072-8500b839-2fad-4b51-a49a-0eec36981cfb.png)
 
 ### Summary
 While the neural network model may be a powerful machine learning algorithm, it did not do a good job at classifying which applicants requests for donation will be successful given the dataset we have.
