@@ -3,6 +3,15 @@
 Alphabet Soup is a non-profit organization dedicated to protecting the environment. The Company invests in life-saving technology and the organization of reforestation groups around the world. Alphabet Soup invests in many partner companies that carry out the strategic goal of saving the environment.
 
 In this project, we will implement a neural network binary classifier capable of predicting whether applicants for donations will be successful if funded by Alphabet Soup. We will prepare input data, design, train, evaluate, and export neural networks to use in any scenario.
+
+### Control Flow
+1. Data Preprocessing
+2. Feature and Target Selection
+3. Splitting the dataset to train and test
+4. Fitting and predicting with he model
+5. Evaluating model performance
+6. Evaluate Feature importance (Depending on model)
+7. Optimize model based on Feature Impotance or other model parameters or features
 ## Results
 ### Data Processing
 1. Feature List
