@@ -1,7 +1,8 @@
 # Neural_Network_Charity_Analysis
 ## Overview
-Alphabet Soup is a non-profit organization
-In this project we will implement a neural network binary classifier that is capable of predicting whether applicants for donations will be successful if funded by Alphabet Soup. We will prepare input data, design, train, evaluate, and export neural networks to use in any scenario.
+Alphabet Soup is a non-profit organization dedicated to protecting the environment. The Company invests in life-saving technology and the organization of reforestation groups around the world. Alphabet Soup invests in many partner companies that carry out the strategic goal of saving the environment.
+
+In this project, we will implement a neural network binary classifier capable of predicting whether applicants for donations will be successful if funded by Alphabet Soup. We will prepare input data, design, train, evaluate, and export neural networks to use in any scenario.
 ## Results
 ### Data Processing
 1. Feature List
@@ -47,19 +48,19 @@ Model Peformance after increasing number of hidden layers
 ![Model_Accuracy_Add_Hidden_Layers](https://user-images.githubusercontent.com/67847583/131287072-8500b839-2fad-4b51-a49a-0eec36981cfb.png)
 
 #### Attempt 5: Using a different model: Random Forest
-Random forests or random decision forests are an ensemble learning method for classification, regression and other tasks that operates by constructing a multitude of decision trees at training time. For classification tasks, the output of the random forest is the class selected by most trees.
+Random forests or random decision forests are an ensemble learning method for classification, regression, and other tasks that operate by constructing many decision trees at training time. For classification tasks, the output of the random forest is the class selected by most trees.
 
-With Random Forests, we can compute feature importance which can be used to determine the most important features. We can then focus on these features to determine if the our model accuracy improves.
-After multiple tries with different feature combinations, we are able to determine that the CLASSIFICATION feature is a particularly noisy column. Also, the ASK_AMT column contains alot of outliers. Removing some the outliers together with some CLASSIFICATION records improved model performance to 75%
+With Random Forests, we can compute feature importance which can be used to determine the most important features. We can then focus on these features to determine if our model accuracy improves.
+After multiple tries with different feature combinations, we can determine that the CLASSIFICATION feature is a particularly noisy column. Also, the ASK_AMT column contains a lot of outliers. Removing some of the outliers together with some CLASSIFICATION records improved model performance to 75%
 
 ![AlphabetSoupCharityOptimization_RandomForest_ModelAccuracy](https://user-images.githubusercontent.com/67847583/131611487-e09807b2-506c-4bd2-a67c-873accb15ab2.png)
 
 ### Summary
-While the neural network model may be a powerful machine learning algorithm, it did not do a good job at classifying which applicants requests for donation will be successful given the dataset we have.
+While the neural network model may be a robust machine learning algorithm, it did not do an excellent job at classifying which applicant's requests for donation will be successful given the dataset we have.
 Some of the steps to improve model accuracy may include:
 1. One recommendation is to use a larger dataset to train the neural network model to learn the general distribution of the dataset without overfitting.
-2. We may use the Balanced Random Forest Classifier which combines the decision of multiple trees to create a strong model accuracy
+2. We may use the Balanced Random Forest Classifier, which combines the decision of multiple trees to create a strong model accuracy
 
-While model accuracy reached 75%, we may have a model that is overfiiting. That is why a larger dataset will be appropariate to train our neural network model or any other model we choose to use.
+While model accuracy reached 75%, we may have a model that is overfitting. That is why a larger dataset will be appropriate to train our neural network model or any other model we choose to use.
    
 
